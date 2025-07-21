@@ -1,11 +1,10 @@
-<div align="center">
-  <img src="Untitled design (3).png" alt="Shadow Wearable Device" width="300" height="300" style="margin-bottom: 20px;" />
-  
+<div align="center">  
   <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Serif&weight=400&size=56&duration=3000&pause=2000&color=E4E0D3&background=00000000&center=true&vCenter=true&width=300&height=80&lines=Shadow" alt="Shadow" />
   
   <p style="color: #e4e0d3; font-family: 'Noto Serif', serif; font-style: italic; margin-top: 0;">
-    <em>Your privacy-first wellness companion across every device</em>
+    <em>Companion You Must Have</em>
   </p>
+    <img src="Untitled design (3).png" alt="Shadow Wearable Device" width="300" height="300" style="margin-bottom: 20px;" />
   
   <p align="center">
     <img src="https://img.shields.io/github/license/CSE-ICE-22/Shadow?color=e4e0d3&style=flat-square" alt="License" />
@@ -116,8 +115,6 @@ Plug-and-play architecture for integrating new devices, sensors, and data source
 ---
 
 ## Data Sources & Sensors
-
-<details>
 <summary><strong>Comprehensive Sensor Matrix</strong></summary>
 
 ### Linux Laptop
@@ -176,23 +173,21 @@ Activity_Metrics:
   - posture_monitoring: Sedentary behavior and movement reminders
 ```
 
-</details>
-
 ---
 
 ## Development Timeline
 
 ### Week 1: Project Foundation
-<input type="radio" checked disabled> Conceptualized Shadow architecture and core principles  
-<input type="radio" checked disabled> Defined privacy-first, edge-computing approach  
-<input type="radio" checked disabled> Established open-source project structure  
-<input type="radio" checked disabled> Created initial documentation and technical specifications  
+- [x] Initiated the idea and Finalized
+- [x] Conceptualized Shadow architecture and core principles  
+- [x] Defined privacy-first, edge-computing approach
+- [x] Created initial documentation
 
 ### Week 2: Hardware Integration Planning (In Progress)
-<input type="radio" checked disabled> Device Ecosystem Mapping: Identify and catalog compatible devices  
-<input type="radio" disabled> Sensor Specification: Create comprehensive datasheets for all sensor inputs  
-<input type="radio" disabled> API Documentation: Design integration protocols for each device category  
-<input type="radio" disabled> Security Framework: Establish encryption and privacy protection standards  
+- [x] Device Ecosystem Mapping: Identify and catalog compatible devices  
+- [ ] Sensor Specification: Create comprehensive datasheets for all sensor inputs  
+- [ ] API Documentation: Design integration protocols for each device category  
+- [ ] Security Framework: Establish encryption and privacy protection standards  
 
 #### Week 2 Deliverables
 ```yaml
@@ -210,34 +205,34 @@ Technical_Architecture:
 ```
 
 ### Week 3-4: Core Protocol Implementation
-<input type="radio" disabled> Peer-to-peer communication protocol development  
-<input type="radio" disabled> Device discovery and pairing mechanisms  
-<input type="radio" disabled> Encrypted data synchronization framework  
-<input type="radio" disabled> Basic security and authentication layer  
+- [ ] Peer-to-peer communication protocol development  
+- [ ] Device discovery and pairing mechanisms  
+- [ ] Encrypted data synchronization framework  
+- [ ] Basic security and authentication layer  
 
 ### Week 5-6: Device Integration Modules
-<input type="radio" disabled> Linux laptop sensor integration  
-<input type="radio" disabled> Android mobile application development  
-<input type="radio" disabled> Wearable device communication protocols  
-<input type="radio" disabled> Cross-platform data normalization  
+- [ ] Linux laptop sensor integration  
+- [ ] Android mobile application development  
+- [ ] Wearable device communication protocols  
+- [ ] Cross-platform data normalization  
 
 ### Week 7-8: Processing Engine
-<input type="radio" disabled> Local ML inference engine implementation  
-<input type="radio" disabled> Data fusion and context analysis algorithms  
-<input type="radio" disabled> Privacy-preserving analytics framework  
-<input type="radio" disabled> Real-time insight generation system  
+- [ ] Local ML inference engine implementation  
+- [ ] Data fusion and context analysis algorithms  
+- [ ] Privacy-preserving analytics framework  
+- [ ] Real-time insight generation system  
 
 ### Week 9-10: User Interface
-<input type="radio" disabled> Cross-platform UI development  
-<input type="radio" disabled> Data visualization components  
-<input type="radio" disabled> Settings and configuration management  
-<input type="radio" disabled> Notification and intervention system  
+- [ ] Cross-platform UI development  
+- [ ] Data visualization components  
+- [ ] Settings and configuration management  
+- [ ] Notification and intervention system  
 
 ### Week 11-12: Testing & Optimization
-<input type="radio" disabled> Comprehensive testing across device combinations  
-<input type="radio" disabled> Performance optimization and battery efficiency  
-<input type="radio" disabled> Community feedback integration  
-<input type="radio" disabled> Documentation and release preparation  
+- [ ] Comprehensive testing across device combinations  
+- [ ] Performance optimization and battery efficiency  
+- [ ] Community feedback integration  
+- [ ] Documentation and release preparation  
 
 ---
 
@@ -394,28 +389,6 @@ git push origin feature/amazing-wellness-insight
 
 ---
 
-## Roadmap
-
-### Current Focus (Q1 2025)
-- Core device integration protocols
-- Basic sensor data collection and processing
-- Peer-to-peer communication framework
-- Initial privacy and security implementation
-
-### Near Term (Q2 2025)
-- Advanced ML inference for wellness insights
-- Cross-platform mobile and desktop applications
-- Community feedback integration and UX improvements
-- Extended device ecosystem support
-
-### Long Term Vision
-- Federated learning across user communities (privacy-preserving)
-- Advanced predictive health analytics
-- Integration with healthcare providers (user-controlled)
-- Global open-source wellness research platform
-
----
-
 ## License & Legal
 
 **Open Source License**: MIT License - see [LICENSE](LICENSE) for details
@@ -426,18 +399,4 @@ git push origin feature/amazing-wellness-insight
 
 ---
 
-<div align="center">
-  <h3 style="color: #e4e0d3; font-family: 'Noto Serif', serif;">Built with Privacy. Powered by Community.</h3>
-  
-  <p>
-    <strong>Star this repository if Shadow resonates with your vision of privacy-first wellness technology</strong>
-  </p>
-  
-  <p style="color: #e4e0d3; font-family: 'Noto Serif', serif; font-style: italic; opacity: 0.8;">
-    <em>"In a world of digital surveillance, Shadow gives you back control of your most personal data—your health, your habits, your life."</em>
-  </p>
-  
-  [![GitHub stars](https://img.shields.io/github/stars/CSE-ICE-22/Shadow?style=social)](https://github.com/CSE-ICE-22/Shadow/stargazers)
-  [![GitHub forks](https://img.shields.io/github/forks/CSE-ICE-22/Shadow?style=social)](https://github.com/CSE-ICE-22/Shadow/network)
-  [![GitHub watchers](https://img.shields.io/github/watchers/CSE-ICE-22/Shadow?style=social)](https://github.com/CSE-ICE-22/Shadow/watchers)
-</div>
+<div align="center
