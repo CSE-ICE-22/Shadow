@@ -57,6 +57,7 @@ Process only changed data through intelligent delta detection, maximizing effici
 Plug-and-play architecture for integrating new devices, sensors, and data sources without core system modifications.
 
 ### System Overview
+    <img src="Screenshot 2025-07-21 at 12.04.30.png" alt="System Overview" width="300" height="300" style="margin-bottom: 20px;" />
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
