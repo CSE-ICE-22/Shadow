@@ -1,10 +1,10 @@
 <div align="center">  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Serif&weight=400&size=56&duration=3000&pause=2000&color=E4E0D3&background=00000000&center=true&vCenter=true&width=300&height=80&lines=Shadow" alt="Shadow" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Serif&weight=400&size=56&duration=3000&pause=2000&color=E4E0D3&background=00000000&center=true&vCenter=true&width=300&height=80&lines=SHADOW" alt="Shadow" />
   
   <p style="color: #e4e0d3; font-family: 'Noto Serif', serif; font-style: italic; margin-top: 0;">
     <em>Companion You Must Have</em>
   </p>
-    <img src="Untitled design (3).png" alt="Shadow Wearable Device" width="300" height="300" style="margin-bottom: 20px;" />
+  <img src="assets/Brand.png" alt="Shadow Wearable Device" width="300" height="300" style="margin-bottom: 20px;" />
   
   <p align="center">
     <img src="https://img.shields.io/github/license/CSE-ICE-22/Shadow?color=e4e0d3&style=flat-square" alt="License" />
@@ -20,18 +20,30 @@
 
 In an era where digital wellness platforms require surrendering your most intimate data to corporate servers, **Shadow** emerges as a radical alternative. Built from the ground up for privacy-conscious solo professionals, Shadow is an open-source wellness platform that keeps your data where it belongs—entirely under your control.
 
-Shadow unifies data streams from your Linux laptop, Android phone, wearables, and custom sensors into a cohesive wellness ecosystem. Every byte of processing happens locally on your devices through peer-to-peer communication, creating a robust, cloud-free architecture that respects your privacy while delivering personalized insights for stress management, sleep optimization, and productivity enhancement.
+Shadow unifies data streams from your Linux laptop, Android phone, and wrist band into a cohesive wellness ecosystem. Every byte of processing happens locally on your devices through peer-to-peer communication, creating a robust, cloud-free architecture that respects your privacy while delivering personalized insights for stress management, health monitoring, sleep optimization, and productivity enhancement.
 
 ## The Problem We're Solving
 
-Modern professionals face an unprecedented wellness crisis:
+The modern professional faces a wellness paradox. The tools meant to connect and empower us are also the source of our greatest strain. The statistics paint a stark picture:
 
-```
-78% experience high stress from irregular schedules
-Average 9+ hours daily screen exposure causing cognitive strain  
-65% report chronic sleep deprivation affecting performance
-100% of current solutions require surrendering personal data
-```
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-top: 20px; margin-bottom: 20px;">
+  <div style="background-color: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 16px; text-align: center; width: 220px;">
+    <p style="font-size: 2.5em; font-weight: 600; margin: 0; color: #e4e0d3;">78%</p>
+    <p style="margin: 5px 0 0 0; color: #e4e0d3;">Experience high stress from irregular schedules.</p>
+  </div>
+  <div style="background-color: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 16px; text-align: center; width: 220px;">
+    <p style="font-size: 2.5em; font-weight: 600; margin: 0; color: #e4e0d3;">9+ hrs</p>
+    <p style="margin: 5px 0 0 0; color: #e4e0d3;">Daily screen exposure causing cognitive strain.</p>
+  </div>
+  <div style="background-color: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 16px; text-align: center; width: 220px;">
+    <p style="font-size: 2.5em; font-weight: 600; margin: 0; color: #e4e0d3;">65%</p>
+    <p style="margin: 5px 0 0 0; color: #e4e0d3;">Report chronic sleep deprivation affecting performance.</p>
+  </div>
+  <div style="background-color: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 16px; text-align: center; width: 220px;">
+    <p style="font-size: 2.5em; font-weight: 600; margin: 0; color: #e4e0d3;">100%</p>
+    <p style="margin: 5px 0 0 0; color: #e4e0d3;">Of current solutions require surrendering personal data.</p>
+  </div>
+</div>
 
 Existing wellness platforms force you to choose between functionality and privacy. **Shadow refuses this compromise.**
 
@@ -58,142 +70,47 @@ Plug-and-play architecture for integrating new devices, sensors, and data source
 
 ### System Overview
 <div align="center">
-  <img src="Screenshot 2025-07-21 at 12.04.30.png" alt="System Overview" height="450" style="margin-bottom: 20px;" />
+  <img src="assets/System_Overview.png" alt="System Overview" height="450" style="margin-bottom: 20px;" />
 </div>
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Linux Laptop  │◄──►│  Android Phone  │◄──►│   Wearables     │
-│                 │    │                 │    │                 │
-│ • App Tracking  │    │ • Usage Stats   │    │ • Heart Rate    │
-│ • Focus Analysis│    │ • Movement      │    │ • Sleep Stages  │
-│ • Resource Mon. │    │ • Environment   │    │ • Biometrics    │
-│ • ML Processing │    │ • Notifications │    │ • Interventions │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         └───────────────────────┼───────────────────────┘
-                                 │
-                    ┌─────────────────────┐
-                    │   Shadow Core       │
-                    │                     │
-                    │ • Data Fusion       │
-                    │ • Context Engine    │
-                    │ • Privacy Layer     │
-                    │ • Insight Generation│
-                    └─────────────────────┘
-```
-
----
-
-## Features & Capabilities
-
-### Linux Laptop Integration
-- **Application Intelligence**: Track active applications, window focus patterns, and productivity workflows
-- **Behavioral Analytics**: Monitor typing speed, mouse activity, and work session patterns
-- **System Health**: CPU, memory, battery, and resource utilization monitoring
-- **Break Detection**: Intelligent identification of work/break cycles and context switching
-- **Environmental Awareness**: Ambient light and sound level detection (hardware permitting)
-
-### Android Mobile Integration
-- **Usage Intelligence**: Comprehensive app usage statistics and screen time analysis
-- **Physical Context**: Step counting, movement recognition, and location-based insights
-- **Environmental Sensing**: Ambient light, sound levels, and contextual data collection
-- **Notification Analysis**: Pattern recognition in notification interactions and responses
-- **Health Data Bridge**: Integration with existing health apps and wearable ecosystems
-
-### Wearable Device Integration
-- **Physiological Monitoring**: Heart rate, HRV, SpO2, and body temperature tracking
-- **Sleep Architecture**: Deep sleep, REM, light sleep, and wake detection with interruption analysis
-- **Activity Recognition**: Step counting, workout detection, and movement classification
-- **Biometric Feedback**: Real-time stress indicators through skin conductance and HRV analysis
-- **Smart Interventions**: Contextual vibration alerts for breaks, posture, and wellness reminders
-
-### Intelligence Engine
-- **Context Fusion**: Multi-device data correlation for comprehensive wellness insights
-- **Adaptive Learning**: Personalized pattern recognition that evolves with your habits
-- **Predictive Analytics**: Stress prediction, optimal break timing, and sleep quality forecasting
-- **Intervention Optimization**: ML-driven timing and delivery of wellness recommendations
-- **Privacy-Preserving ML**: Federated learning across your devices without data exposure
-
----
-
-## Data Sources & Sensors
-<summary><strong>Comprehensive Sensor Matrix</strong></summary>
-
-### Linux Laptop
-```yaml
-Activity_Tracking:
-  - active_applications: Real-time app usage and focus time
-  - window_management: Focus switching frequency and patterns
-  - input_patterns: Keyboard/mouse activity and idle detection
-  - screen_metrics: Time, brightness, and break intervals
-  
-System_Monitoring:
-  - resource_usage: CPU, RAM, disk I/O, battery status
-  - environmental: Ambient light, microphone levels
-  - connectivity: Network usage, device proximity
-  
-Productivity_Context:
-  - calendar_integration: Meeting schedules and time blocking
-  - task_management: To-do completion and priority tracking
-  - communication: Email/chat patterns and response times
-```
-
-### Android Phone
-```yaml
-Usage_Analytics:
-  - application_statistics: Usage time, launch frequency
-  - screen_interactions: Touch patterns, notification responses
-  - communication_patterns: Call/message frequency and timing
-  
-Physical_Context:
-  - location_services: Movement patterns, venue recognition
-  - activity_recognition: Walking, running, stationary states
-  - environmental_sensing: Light, sound, temperature
-  
-Health_Integration:
-  - step_counting: Daily activity and movement goals
-  - sleep_detection: Phone-based sleep pattern analysis
-  - stress_indicators: Usage patterns during high-stress periods
-```
-
-### Wearable Devices
-```yaml
-Physiological_Signals:
-  - heart_rate: Continuous monitoring with variability analysis
-  - blood_oxygen: SpO2 levels throughout day and sleep
-  - skin_conductance: Galvanic skin response for stress detection
-  - body_temperature: Core temperature trends and variations
-  
-Sleep_Analysis:
-  - sleep_stages: Light, deep, REM sleep classification
-  - sleep_quality: Interruptions, efficiency, total duration
-  - recovery_metrics: Resting heart rate and HRV trends
-  
-Activity_Metrics:
-  - step_counting: Daily activity and movement patterns
-  - workout_detection: Exercise type and intensity recognition
-  - posture_monitoring: Sedentary behavior and movement reminders
-```
 
 ---
 
 ## Development Timeline
 
 ### Week 1: Project Foundation
-- [x] Initiated the idea and Finalized
-- [x] Conceptualized Shadow architecture and core principles  
-- [x] Defined privacy-first, edge-computing approach
-- [x] Created initial documentation
+
+- ✅ **Ideation and Vision Finalized**  
+  Initiated brainstorming, clarified the problem statement, and crystallized the core idea behind Shadow.
+
+- ✅ **Architectural Blueprint Established**  
+  Outlined the foundational architecture and engineering principles, focusing on modular design, peer-to-peer communication, and a robust resource pool.
+
+- ✅ **Privacy-First, Edge-Processing Defined**  
+  Committed to a privacy-centric, on-device analytics strategy—ensuring all user data remains local and secure by default.
+
+- ✅ **Core Documentation Drafted**  
+  Compiled initial technical notes, project goals, and feedback from early reviews to guide further development.
+
+- ✅ **Actionable Feedback Incorporated**  
+  Integrated essential feedback—such as the need for hardware-level integration and engineering part—into the evolving system specification.
+
+**Week 1 Deliverables:**  
+All supporting documentation, feedback notes, and early architectural diagrams are available in [`deliverables/week1/`](deliverables/week1/).
+
+- Initial Project Overview presentation
+- Software requirements specification
 
 ### Week 2: Hardware Integration Planning (In Progress)
-- [x] Device Ecosystem Mapping: Identify and catalog compatible devices  
-- [ ] Sensor Specification: Create comprehensive datasheets for all sensor inputs  
-- [ ] API Documentation: Design integration protocols for each device category  
-- [ ] Security Framework: Establish encryption and privacy protection standards  
+
+- ✅ **Device Ecosystem Mapping**: Identify and catalog compatible devices  
+- 🔄 **Base Architecture Design**: Module architecture design (ongoing)
+- ⏳ **Sensor Specification**: Create comprehensive datasheets for all sensor inputs  
+- ⏳ **API Documentation**: Design integration protocols for each device category  
+- ⏳ **Security Framework**: Establish encryption and privacy protection standards  
 
 #### Week 2 Deliverables
-```yaml
+All supporting documentation, feedback notes for this week are available in [`deliverables/week2/`](deliverables/week2/).
+
 Hardware_Specification:
   - device_compatibility_matrix.md
   - sensor_datasheet_collection/
@@ -201,41 +118,41 @@ Hardware_Specification:
   - security_implementation_guide.md
 
 Technical_Architecture:
+  - Shadow_System_Architecture_specification.pdf
   - peer_to_peer_protocol_design.md
   - edge_processing_framework.md
   - data_privacy_architecture.md
   - modular_integration_system.md
-```
 
 ### Week 3-4: Core Protocol Implementation
-- [ ] Peer-to-peer communication protocol development  
-- [ ] Device discovery and pairing mechanisms  
-- [ ] Encrypted data synchronization framework  
-- [ ] Basic security and authentication layer  
+- ⏳ Peer-to-peer communication protocol development  
+- ⏳ Device discovery and pairing mechanisms  
+- ⏳ Encrypted data synchronization framework  
+- ⏳ Basic security and authentication layer  
 
 ### Week 5-6: Device Integration Modules
-- [ ] Linux laptop sensor integration  
-- [ ] Android mobile application development  
-- [ ] Wearable device communication protocols  
-- [ ] Cross-platform data normalization  
+- ⏳ Linux laptop sensor integration  
+- ⏳ Android mobile application development  
+- ⏳ Wearable device communication protocols  
+- ⏳ Cross-platform data normalization  
 
 ### Week 7-8: Processing Engine
-- [ ] Local ML inference engine implementation  
-- [ ] Data fusion and context analysis algorithms  
-- [ ] Privacy-preserving analytics framework  
-- [ ] Real-time insight generation system  
+- ⏳ Local ML inference engine implementation  
+- ⏳ Data fusion and context analysis algorithms  
+- ⏳ Privacy-preserving analytics framework  
+- ⏳ Real-time insight generation system  
 
 ### Week 9-10: User Interface
-- [ ] Cross-platform UI development  
-- [ ] Data visualization components  
-- [ ] Settings and configuration management  
-- [ ] Notification and intervention system  
+- ⏳ Cross-platform UI development  
+- ⏳ Data visualization components  
+- ⏳ Settings and configuration management  
+- ⏳ Notification and intervention system  
 
 ### Week 11-12: Testing & Optimization
-- [ ] Comprehensive testing across device combinations  
-- [ ] Performance optimization and battery efficiency  
-- [ ] Community feedback integration  
-- [ ] Documentation and release preparation  
+- ⏳ Comprehensive testing across device combinations  
+- ⏳ Performance optimization and battery efficiency  
+- ⏳ Community feedback integration  
+- ⏳ Documentation and release preparation  
 
 ---
 
@@ -402,4 +319,8 @@ git push origin feature/amazing-wellness-insight
 
 ---
 
-<div align="center
+<div align="center">
+  <p style="color: #e4e0d3; font-family: 'Noto Serif', serif; font-style: italic;">
+    <em>Your wellness, your data, your control.</em>
+  </p>
+</div>
